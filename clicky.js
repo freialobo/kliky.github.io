@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$('#clickThis').click(function() {
 		
         if(num < 1){
-            var time = 6, //in seconds
+            var time = 60, //in seconds
                 display = $('#time'),
                 button = $('#startAndStop');
         
